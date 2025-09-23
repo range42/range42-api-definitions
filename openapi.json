@@ -407,14 +407,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/start-vms-admin": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/start-vms-admin": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - admin"
         ],
         "summary": "Start student vms ",
         "description": "Start all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_start_vms_admin_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_start_vms_admin_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -449,14 +449,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/stop-vms-admin": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/stop-vms-admin": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - admin"
         ],
         "summary": "Stop student vms ",
         "description": "Stop all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_stop_vms_admin_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_stop_vms_admin_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -491,14 +491,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/pause-vms-admin": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/pause-vms-admin": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - admin"
         ],
         "summary": "Pause student vms ",
         "description": "Pause all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_pause_vms_admin_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_pause_vms_admin_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -533,14 +533,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/resume-vms-admin": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/resume-vms-admin": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - admin"
         ],
         "summary": "Resume student vms ",
         "description": "Resume all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_resume_vms_admin_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_resume_vms_admin_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -575,14 +575,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/start-vms-vuln": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/start-vms-vuln": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - vuln"
         ],
         "summary": "Start vulnerable vms ",
         "description": "Start all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_start_vms_vuln_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_start_vms_vuln_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -617,14 +617,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/stop-vms-vuln": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/stop-vms-vuln": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - vuln"
         ],
         "summary": "Stop vulnerable vms ",
         "description": "Stop all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_stop_vms_vuln_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_stop_vms_vuln_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -659,14 +659,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/pause-vms-vuln": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/pause-vms-vuln": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - vuln"
         ],
         "summary": "Pause vulnerable vms ",
         "description": "Pause all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_pause_vms_vuln_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_pause_vms_vuln_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -701,14 +701,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/resume-vms-vuln": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/resume-vms-vuln": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - vuln"
         ],
         "summary": "Resume vulnerable vms ",
         "description": "Resume all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_resume_vms_vuln_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_resume_vms_vuln_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -743,14 +743,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/start-vms-student": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/start-vms-student": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - student"
         ],
         "summary": "Start student vms ",
         "description": "Start all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_start_vms_student_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_start_vms_student_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -785,14 +785,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/stop-vms-student": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/stop-vms-student": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - student"
         ],
         "summary": "Stop student vms ",
         "description": "Stop all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_stop_vms_student_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_stop_vms_student_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -827,14 +827,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/pause-vms-student": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/pause-vms-student": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - student"
         ],
         "summary": "Pause student vms ",
         "description": "Pause all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_pause_vms_student_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_pause_vms_student_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -869,14 +869,14 @@
         }
       }
     },
-    "/v0/admin/run/bundlescore/proxmox/configure/default/resume-vms-student": {
+    "/v0/admin/run/bundles/core/proxmox/configure/default/resume-vms-student": {
       "post": {
         "tags": [
           "bundles - core - proxmox - vms - default-configuration - student"
         ],
         "summary": "Resume student vms ",
         "description": "Resume all vulnerable virtual machines",
-        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_resume_vms_student_post",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_resume_vms_student_post",
         "requestBody": {
           "content": {
             "application/json": {
@@ -894,6 +894,384 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_StartStopPauseResume"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundles/core/proxmox/configure/default/delete-vms-student": {
+      "delete": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - student"
+        ],
+        "summary": "Delete student vms ",
+        "description": "Delete all vulnerable virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_student_v0_admin_run_bundles_core_proxmox_configure_default_delete_vms_student_delete",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_StartStopPauseResumeAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_StartStopPauseResume"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundles/core/proxmox/configure/default/delete-vms-vuln": {
+      "delete": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - vuln"
+        ],
+        "summary": "Delete student vms ",
+        "description": "Delete all vulnerable virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundles_core_proxmox_configure_default_delete_vms_vuln_delete",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_StartStopPauseResumeAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_StartStopPauseResume"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundles/core/proxmox/configure/default/delete-vms-admin": {
+      "delete": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - admin"
+        ],
+        "summary": "Delete admin vms ",
+        "description": "Delete all admin virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_admin_v0_admin_run_bundles_core_proxmox_configure_default_delete_vms_admin_delete",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_StartStopPauseResumeAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_StartStopPauseResume"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundlescore/proxmox/configure/default/snapshot/create-vms-student": {
+      "post": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - student"
+        ],
+        "summary": "Snapshot student vms ",
+        "description": "Snapshot all vulnerable virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_create_snapshot_vms_student_v0_admin_run_bundlescore_proxmox_configure_default_snapshot_create_vms_student_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_StartStopPauseResumeAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_CreateSnapshot"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundlescore/proxmox/configure/default/snapshot/create-vms-vuln": {
+      "post": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - vuln"
+        ],
+        "summary": "Snapshot student vms ",
+        "description": "Snapshot all vulnerable virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_create_snapshot_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_snapshot_create_vms_vuln_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_StartStopPauseResumeAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_CreateSnapshot"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundlescore/proxmox/configure/default/snapshot/create-vms-admin": {
+      "post": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - admin"
+        ],
+        "summary": "Snapshot admin vms ",
+        "description": "Snapshot all admin virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_create_snapshot_vms_admin_v0_admin_run_bundlescore_proxmox_configure_default_snapshot_create_vms_admin_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_StartStopPauseResumeAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_CreateSnapshot"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundlescore/proxmox/configure/default/snapshot/revert-vms-student": {
+      "post": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - student"
+        ],
+        "summary": "Snapshot student vms ",
+        "description": "Snapshot all vulnerable virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_student_v0_admin_run_bundlescore_proxmox_configure_default_snapshot_revert_vms_student_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_RevertSnapshotAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_RevertSnapshot"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundlescore/proxmox/configure/default/snapshot/revert-vms-vuln": {
+      "post": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - vuln"
+        ],
+        "summary": "Snapshot student vms ",
+        "description": "Snapshot all vulnerable virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_vuln_v0_admin_run_bundlescore_proxmox_configure_default_snapshot_revert_vms_vuln_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_RevertSnapshotAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_RevertSnapshot"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/run/bundlescore/proxmox/configure/default/snapshot/revert-vms-admin": {
+      "post": {
+        "tags": [
+          "bundles - core - proxmox - vms - default-configuration - admin"
+        ],
+        "summary": "Snapshot admin vms ",
+        "description": "Snapshot all admin virtual machines",
+        "operationId": "bundles_proxmox_configure_default_vms_stop_vms_admin_v0_admin_run_bundlescore_proxmox_configure_default_snapshot_revert_vms_admin_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_BundlesCoreProxmoxConfigureDefaultVms_RevertSnapshotAdminVulnStudentVms"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_RevertSnapshot"
                 }
               }
             }
@@ -1500,6 +1878,48 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_StartStopPauseResume"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v0/admin/proxmox/vms/vm_ids/delete": {
+      "delete": {
+        "tags": [
+          "proxmox - vm lifecycle"
+        ],
+        "summary": "Mass delete vms ",
+        "description": "Delete all specified virtual machines",
+        "operationId": "proxmox_vms_vm_ids_mass_delete_v0_admin_proxmox_vms_vm_ids_delete_delete",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Request_ProxmoxVmsVmIds_MassDelete"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reply_ProxmoxVmsVmIds_MassDelete"
                 }
               }
             }
@@ -5685,6 +6105,57 @@
         ],
         "title": "Reply_ProxmoxVmsVMID_ListSnapshotItem"
       },
+      "Reply_ProxmoxVmsVMID_MasseDeleteItem": {
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "vm_start",
+              "vm_stop",
+              "vm_resume",
+              "vm_pause",
+              "vm_stop_force"
+            ],
+            "title": "Action"
+          },
+          "source": {
+            "type": "string",
+            "const": "proxmox",
+            "title": "Source"
+          },
+          "proxmox_node": {
+            "type": "string",
+            "title": "Proxmox Node"
+          },
+          "vm_id": {
+            "type": "string",
+            "title": "Vm Id"
+          },
+          "vm_name": {
+            "type": "string",
+            "title": "Vm Name"
+          },
+          "vm_status": {
+            "type": "string",
+            "enum": [
+              "running",
+              "stopped",
+              "paused"
+            ],
+            "title": "Vm Status"
+          }
+        },
+        "type": "object",
+        "required": [
+          "action",
+          "source",
+          "proxmox_node",
+          "vm_id",
+          "vm_name",
+          "vm_status"
+        ],
+        "title": "Reply_ProxmoxVmsVMID_MasseDeleteItem"
+      },
       "Reply_ProxmoxVmsVMID_RevertSnapshot": {
         "properties": {
           "rc": {
@@ -5763,7 +6234,32 @@
         "required": [
           "result"
         ],
-        "title": "Reply_ProxmoxVmsVMID_StartStopPauseResume"
+        "title": "Reply_ProxmoxVmsVMID_StartStopPauseResume",
+        "example": {
+          "rc": 0,
+          "result": [
+            {
+              "action": "vm_delete",
+              "proxmox_node": "px-testing",
+              "raw_data": {
+                "data": "UPID:px-testing:0033649C:1D2619CC:68D143C5:qmdestroy:4001:API_master@pam!API_master:"
+              },
+              "source": "proxmox",
+              "vm_id": 4001,
+              "vm_name": "vuln-box-01"
+            },
+            {
+              "action": "vm_delete",
+              "proxmox_node": "px-testing",
+              "raw_data": {
+                "data": "UPID:px-testing:003364A6:1D261A84:68D143C6:qmdestroy:4002:API_master@pam!API_master:"
+              },
+              "source": "proxmox",
+              "vm_id": 4002,
+              "vm_name": "vuln-box-02"
+            }
+          ]
+        }
       },
       "Reply_ProxmoxVmsVMID_StartStopPauseResumeItem": {
         "properties": {
@@ -5791,22 +6287,9 @@
             "type": "string",
             "title": "Vm Id"
           },
-          "vm_new_id": {
-            "type": "string",
-            "title": "Vm New Id"
-          },
           "vm_name": {
             "type": "string",
             "title": "Vm Name"
-          },
-          "vm_status": {
-            "type": "string",
-            "enum": [
-              "running",
-              "stopped",
-              "paused"
-            ],
-            "title": "Vm Status"
           }
         },
         "type": "object",
@@ -5815,9 +6298,7 @@
           "source",
           "proxmox_node",
           "vm_id",
-          "vm_new_id",
-          "vm_name",
-          "vm_status"
+          "vm_name"
         ],
         "title": "Reply_ProxmoxVmsVMID_StartStopPauseResumeItem"
       },
@@ -6211,6 +6692,28 @@
           "source"
         ],
         "title": "Reply_ProxmoxVmsVMID_VmSetTagItem"
+      },
+      "Reply_ProxmoxVmsVmIds_MassDelete": {
+        "properties": {
+          "rc": {
+            "type": "integer",
+            "title": "Rc",
+            "description": "RETURN code (0 = OK)",
+            "default": 0
+          },
+          "result": {
+            "items": {
+              "$ref": "#/components/schemas/Reply_ProxmoxVmsVMID_MasseDeleteItem"
+            },
+            "type": "array",
+            "title": "Result"
+          }
+        },
+        "type": "object",
+        "required": [
+          "result"
+        ],
+        "title": "Reply_ProxmoxVmsVmIds_MassDelete"
       },
       "Reply_ProxmoxVms_VmList": {
         "type": "string",
@@ -6888,6 +7391,45 @@
           "vm_description"
         ],
         "title": "Request_BundlesCoreProxmoxConfigureDefaultVms_CreateVulnVmsItem"
+      },
+      "Request_BundlesCoreProxmoxConfigureDefaultVms_RevertSnapshotAdminVulnStudentVms": {
+        "properties": {
+          "proxmox_node": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9-]*$",
+            "title": "Proxmox Node",
+            "description": "Proxmox node name"
+          },
+          "as_json": {
+            "type": "boolean",
+            "title": "As Json",
+            "description": "If true : JSON output else : raw output",
+            "default": true
+          },
+          "vm_snapshot_name": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_-]+$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Vm Snapshot Name",
+            "description": "Name of the snapshot to create"
+          }
+        },
+        "type": "object",
+        "required": [
+          "proxmox_node"
+        ],
+        "title": "Request_BundlesCoreProxmoxConfigureDefaultVms_RevertSnapshotAdminVulnStudentVms",
+        "example": {
+          "as_json": true,
+          "proxmox_node": "px-testing",
+          "vm_snapshot_name": "default-snapshot-from-API-220925-1734"
+        }
       },
       "Request_BundlesCoreProxmoxConfigureDefaultVms_StartStopPauseResumeAdminVulnStudentVms": {
         "properties": {
@@ -9328,6 +9870,55 @@
           "vm_tag_name": "group_01,group_02"
         }
       },
+      "Request_ProxmoxVmsVmIds_MassDelete": {
+        "properties": {
+          "proxmox_node": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9-]*$",
+            "title": "Proxmox Node",
+            "description": "Proxmox node name"
+          },
+          "as_json": {
+            "type": "boolean",
+            "title": "As Json",
+            "description": "If true : JSON output else : raw output",
+            "default": true
+          },
+          "vms": {
+            "items": {
+              "$ref": "#/components/schemas/vm"
+            },
+            "type": "array",
+            "minItems": 1,
+            "title": "Vms",
+            "description": "List of virtual machine (vm_id + vm_name)"
+          }
+        },
+        "type": "object",
+        "required": [
+          "proxmox_node",
+          "vms"
+        ],
+        "title": "Request_ProxmoxVmsVmIds_MassDelete",
+        "example": {
+          "as_json": true,
+          "proxmox_node": "px-testing",
+          "vms": [
+            {
+              "id": "4000",
+              "name": "vuln-box-00"
+            },
+            {
+              "id": "4001",
+              "name": "vuln-box-01"
+            },
+            {
+              "id": "4002",
+              "name": "vuln-box-02"
+            }
+          ]
+        }
+      },
       "Request_ProxmoxVmsVmIds_MassStartStopPauseResume": {
         "properties": {
           "proxmox_node": {
@@ -9496,6 +10087,28 @@
             {}
           ]
         }
+      },
+      "vm": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9]+$",
+            "title": "Id",
+            "description": "Virtual machine id"
+          },
+          "name": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9-]+$",
+            "title": "Name",
+            "description": "Virtual machine meta name"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "title": "vm"
       }
     }
   }
