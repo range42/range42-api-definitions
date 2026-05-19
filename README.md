@@ -1,6 +1,6 @@
 # range42-api-definitions
 
-OpenAPI specification for the CR42 backend API (`CR42 - API`, version `v0.1`).
+OpenAPI specification for the range42 backend API (`range42 - API`, version `v0.1`).
 
 ---
 
