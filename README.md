@@ -15,17 +15,29 @@ OpenAPI specification for the range42 backend API (`range42 - API`, version `v0.
 
 ## API Summary
 
-**80 endpoints**, all under the `/v0/admin/` prefix.
+**121 paths / 130 operations**, across the legacy `/v0/admin/` surface (84 paths) and the current `/v1/` surface (37 paths).
 
-| Route group | Endpoints | Description |
-|-------------|-----------|-------------|
-| `/v0/admin/proxmox/vms/` | 25 | VM lifecycle: create, clone, delete, start, stop, pause, resume, bulk operations, config queries |
-| `/v0/admin/proxmox/vms/.../snapshot/` | 10 | Per-VM snapshot management: list, create, delete, revert |
-| `/v0/admin/run/bundles/` | 30 | Run named bundles: Ubuntu package installs, user setup, Proxmox VM provisioning (admin / vuln / student roles) |
-| `/v0/admin/run/scenarios/` | 1 | Run a named scenario by name |
+### `/v1/` — current API
+
+| Route group | Paths | Description |
+|-------------|-------|-------------|
+| `/v1/proxmox/` | 13 | Host registration + read ops: hosts, health, storage/content, per-VM snapshots |
+| `/v1/deployments/` | 11 | Deployment lifecycle: create, attempts, preflight, events (SSE), snapshots, teardown, team actions, timings |
+| `/v1/catalog/` | 5 | Catalog sources and entry browsing |
+| `/v1/projects/` | 4 | Project CRUD + compose + validate |
+| `/v1/health/` | 2 | Liveness / readiness |
+| `/v1/admin/` | 2 | Admin stats |
+
+### `/v0/admin/` — legacy API
+
+| Route group | Paths | Description |
+|-------------|-------|-------------|
+| `/v0/admin/run/bundles/` | 30 | Run named bundles: package installs, user setup, Proxmox VM provisioning (admin / vuln / student roles) |
+| `/v0/admin/proxmox/vms/` | 29 | VM lifecycle + per-VM snapshots: create, clone, delete, start, stop, pause, resume, bulk ops, config queries |
 | `/v0/admin/proxmox/firewall/` | 12 | Firewall rules and aliases at VM, node, and datacenter scope |
 | `/v0/admin/proxmox/network/` | 6 | Network interface management on VMs and nodes |
 | `/v0/admin/proxmox/storage/` | 4 | Storage listing, ISO listing, template listing, ISO download |
+| `/v0/admin/run/scenarios/` | 1 | Run a named scenario by name |
 | `/v0/admin/debug/` | 2 | Health check (`ping`) and functional test (`func_test`) |
 
 ---
